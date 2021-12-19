@@ -1,7 +1,7 @@
 const rick = require('aoi.js');
 var fs = require('fs');
 const bot = new rick.Bot({
- token: process.env.token,
+ token: process.env.token,  ///.env'e Token Diye Bir Deger Acin Ve Tokeninizi Girin 🥰
  prefix:"r!"
 })
 
